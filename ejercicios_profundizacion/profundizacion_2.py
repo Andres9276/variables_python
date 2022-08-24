@@ -31,5 +31,16 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
   entienda de que se está hablando.
 '''
 
+from email.policy import strict
+import string
+
+
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+nombre = str(input('Ingresar nombre/s: '))
+apellido = str(input('Ingresar appelido/s: '))
+dni_1 = int(input('Ingresar numero DNI: '))
+edad_1 = int(input('Ingresar edad: '))
+altura_1 = float(input('Ingresar altura: '))
+print('Nombre completo: ',nombre+' '+apellido,' DNI: ',dni_1)
+print('Nombre completo: ',nombre+' '+apellido,' Edad: ',edad_1,' Altura: ',altura_1)

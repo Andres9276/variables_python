@@ -45,3 +45,9 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+nombre1 = str(input('Nombre/s y Apellido del primer padre o tutor: '))
+nombre2 = str(input('Nombre/s y Apellido del segundo padre o tutor: '))
+apellido1 = nombre1.split()[-1]
+apellido2 = nombre2.split()[-1]
+hijo = str(input('Nombre del hijo: '))
+print('Resultado: ',hijo,apellido1,apellido2)

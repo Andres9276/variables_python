@@ -38,3 +38,8 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+nombre = str(input('Escribir nombre/s: '))
+apellido = str(input('Escribir apellido/s: '))
+print('Nombre completo: '+nombre.lower(),apellido.lower())
+print('Nombre completo: ',nombre.upper(),apellido.upper())
+print('Nombre completo: ',nombre.title(),apellido.title())
